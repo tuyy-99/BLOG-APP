@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Bookmark, UserCircle2 } from "lucide-react";
 
 export default function Navbar({ onPostClick }) {
   const location = useLocation();
