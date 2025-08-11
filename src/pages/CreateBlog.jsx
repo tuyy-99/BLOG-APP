@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import BlogForm from "../components/BlogForm";
-import BlogData from "../data/BlogData";
 
 export default function CreateBlog({ setBlogs }) {
   const [showModal, setShowModal] = useState(true);
